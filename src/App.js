@@ -3,7 +3,6 @@ import 'boxicons/css/boxicons.min.css'
 import Header from './components/Header';
 import TransactionList from './components/TransactionList';
 import InputForm from './components/InputForm';
-
 import { useState } from 'react';
 import SearchBar from './components/SearchBar'
 

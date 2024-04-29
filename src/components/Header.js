@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(){
     return (
-        <header class="header"> BANK OF FLATIRON </header>
+        <header className="header"> BANK OF FLATIRON </header>
     )
 }
 

@@ -32,9 +32,7 @@ function Transaction() {
   };
   return (
     <div>
-      <div className="search-bar">
       <SearchBar/>
-      </div>
       <div style={{ padding: 10 }}>
       </div>
       <InputForm onAddTransaction={addTransaction}/>

@@ -32,7 +32,11 @@ function Transaction() {
   };
   return (
     <div>
-      <SearchBar/>
+      <SearchBar
+      searchTerm={searchTerm}
+      handleClick={handleClick}
+      handleChange={handleChange}
+      />
       <div style={{ padding: 10 }}>
       </div>
       <InputForm onAddTransaction={addTransaction}/>
@@ -46,9 +50,7 @@ function Transaction() {
 function App() {
   return (
     <div className="App">
-
       <Header/> 
-      
       <Transaction/>
     </div>
   );

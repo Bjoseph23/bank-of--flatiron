@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React from "react";
 
 function TransactionList({transactions}){
 
@@ -22,7 +21,7 @@ function TransactionList({transactions}){
                      <td>{obj.date}</td>
                      <td>{obj.description}</td>
                      <td>{obj.category}</td>
-                     <td>{obj.amount}</td>
+                     <td>{obj.amount} </td>
                      </tr>
                     </tbody>
                 )})}
